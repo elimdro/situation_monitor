@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Situation Monitor</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#overview">
+      <img src="/favicon.svg" alt="" width="28" height="28">
+      <span>
+        <strong>Situation Monitor</strong>
+        <em>Public X</em>
+      </span>
+    </a>
+    <p id="status" class="status">Reading X…</p>
+    <div class="tools">
+      <input id="filter" type="search" placeholder="Filter" aria-label="Filter topics and posts" autocomplete="off">
+      <button id="refresh" type="button" title="Refresh this view (r)">Refresh</button>
+    </div>
+  </header>
+  <div class="shell">
+    <nav id="nav" aria-label="Lanes"></nav>
+    <main id="main"></main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
