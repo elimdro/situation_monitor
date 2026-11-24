@@ -1,6 +1,7 @@
 # Situation Monitor
 
-A private, local dashboard of what is moving on X.
+This is a work in progress. 
+A private, local dashboard of what is moving on X and elsewhere.
 
 The overview is X's own trend list for the world and for the United States, plus posts from the public trending timeline. Each field lane follows a small set of public accounts and ranks their original posts by engagement and recency:
 
